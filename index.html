@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TalhaGames</title>
+<meta name="description" content="TalhaGames makes small mobile management games. Mini Mart Tycoon: Farm Shop is out now on Google Play.">
+<style>
+  :root {
+    --bg: #fdf6ec;
+    --card: #ffffff;
+    --ink: #3a3050;
+    --muted: #6d6486;
+    --accent: #e8734a;
+    --line: #ece3d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1d1a2b; --card: #262138; --ink: #f2eefb; --muted: #a79fc2;
+      --accent: #ff9068; --line: #352f4a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1d1a2b; --card: #262138; --ink: #f2eefb; --muted: #a79fc2;
+    --accent: #ff9068; --line: #352f4a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    padding: 0 16px;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 0 72px; }
+  h1 { font-size: 34px; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .tag { color: var(--muted); margin: 0 0 40px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 24px; margin-bottom: 20px;
+  }
+  .card h2 { font-size: 21px; margin: 0 0 8px; }
+  .card p { margin: 0 0 14px; color: var(--muted); }
+  a { color: var(--accent); }
+  .btn {
+    display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
+    padding: 11px 20px; border-radius: 999px; font-weight: 600;
+  }
+  footer { color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); padding-top: 22px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TalhaGames</h1>
+  <p class="tag">Small mobile management games, made by one person.</p>
+
+  <section class="card">
+    <h2>Mini Mart Tycoon: Farm Shop</h2>
+    <p>
+      Grow your own produce, turn it into goods, stock the shelves and serve shoppers at the till.
+      Then open a greengrocer and a farm cafe, hire staff, and let the shop run itself.
+      Free to play on Android.
+    </p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.talhagames.minimarketfarm">Get it on Google Play</a>
+  </section>
+
+  <section class="card">
+    <h2>Support</h2>
+    <!-- Put the address you will also use as the Play listing's support email, then delete this note.
+         Left blank on purpose: publishing an email address is your call, not something to guess at. -->
+    <p>
+      Something broken, or an idea for the game? Write to
+      <a href="mailto:BURAYA_DESTEK_EPOSTASI">BURAYA_DESTEK_EPOSTASI</a> and it will be read.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Privacy</h2>
+    <p>
+      The games do not ask you to sign in and do not collect an account. Saves stay on your device.
+      Ads are served by Google AdMob, which may use a device advertising identifier; you can change
+      your choice at any time from the game's Settings screen.
+    </p>
+  </section>
+
+  <footer>
+    &copy; TalhaGames &middot; <a href="app-ads.txt">app-ads.txt</a>
+  </footer>
+</main>
+</body>
+</html>
